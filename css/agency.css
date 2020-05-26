@@ -283,6 +283,7 @@ header.masthead .intro-text .intro-heading {
   font-weight: 700;
   line-height: 50px;
   margin-bottom: 25px;
+  color: white;
   text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
   font-family: 'Roboto', sans-serif;
 }
