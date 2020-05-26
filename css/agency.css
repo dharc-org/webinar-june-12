@@ -158,7 +158,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: rgb(164, 0, 0);
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -201,17 +201,17 @@ img::-moz-selection {
 
 #fabio {
   align-content: left;
-  padding-top: 3em;
+  padding-top: 6em;
 }
 
 #sebastian {
   align-content: left;
-  padding-top: 3em;
+  padding-top: 6em;
 }
 
 #valentina {
   align-content: left;
-  padding-top: 3em;
+  padding-top: 6em;
 }
 
 @media (min-width: 992px) {
@@ -232,7 +232,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: #74C7B0;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -263,7 +263,7 @@ header.masthead::after {
 }
 
 header.masthead .intro-text {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
@@ -290,7 +290,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
