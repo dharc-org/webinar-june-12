@@ -5,7 +5,7 @@
  */
 
 body {
-  
+
   font-family: 'Raleway', sans-serif;
   overflow-x: hidden;
 }
@@ -158,7 +158,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #212529;
+  background-color: white;
 }
 
 #mainNav .navbar-toggler {
@@ -168,7 +168,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #e2c576;
+  background-color: red;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -221,13 +221,25 @@ img::-moz-selection {
 }
 
 header.masthead {
-  text-align: center;
+  text-align: left;
   color: white;
-  background-image: url("../img/header_bg3.jpg");
+  background-image: url("../img/dharc.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+}
+
+header.masthead::after {
+  content: "";
+  background: url("../img/dharc.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 header.masthead .intro-text {
@@ -237,11 +249,12 @@ header.masthead .intro-text {
 
 header.masthead .intro-text .intro-lead-in {
   font-size: 18px;
+  color: rgb(164, 0, 0);
+
   /*font-style: italic;*/
-  text-transform: uppercase;
-  line-height: 22px;
+  line-height: 18px;
   margin-bottom: 25px;
-  text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+  /* text-shadow: -2px 3px 3px rgba(32, 37, 43, 1); */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -260,12 +273,13 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px;
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 28px;
+    color: rgb(164, 0, 0);
     /*font-style: italic;*/
-    text-transform: uppercase;
+
     line-height: 40px;
     margin-bottom: 25px;
-    text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
+    /* text-shadow: -2px 3px 3px rgba(32, 37, 43, 1); */
     font-family: 'Raleway', sans-serif;
   }
   header.masthead .intro-text .intro-heading {
@@ -437,7 +451,7 @@ header.masthead .intro-text .intro-heading {
   width:100%;
   height:315px;
   overflow-x: auto;
-  overflow-y: hidden; 
+  overflow-y: hidden;
   flex-wrap: nowrap;
 }
 
@@ -449,13 +463,13 @@ header.masthead .intro-text .intro-heading {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px white; 
+  box-shadow: inset 0 0 5px white;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.1); 
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
 
@@ -609,13 +623,13 @@ header.masthead .intro-text .intro-heading {
     padding: 0 30px 20px 20px;
     text-align: left;
   }
-  
+
   .team-member img {
   width: 150px;
   height: 150px;
   border: 5px solid rgba(0, 0, 0, 0.1);
   }
-  
+
 }
 
 @media (min-width: 992px) {
@@ -638,13 +652,13 @@ header.masthead .intro-text .intro-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
-  
+
   .team-member img {
   width: 170px;
   height: 170px;
   border: 7px solid rgba(0, 0, 0, 0.1);
   }
-  
+
 }
 
 @media (min-width: 1200px) {
@@ -824,7 +838,7 @@ ul.team-social-buttons li a:active, ul.team-social-buttons li a:focus, ul.team-s
   height:0;
   overflow:hidden;
   }
-  
+
   .youtube-responsive-container iframe, .youtube-responsive-container object, .youtube-responsive-container embed {
   position:absolute;
   top:0;
