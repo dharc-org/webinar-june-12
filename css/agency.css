@@ -158,7 +158,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: white;
+  background-color: rgb(164, 0, 0);
 }
 
 #mainNav .navbar-toggler {
@@ -168,7 +168,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: red;
+  background-color: #e2c576;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -192,6 +192,26 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ceb46c;
+}
+
+#martina {
+  align-content: left;
+  padding-top: 3em;
+}
+
+#fabio {
+  align-content: left;
+  padding-top: 3em;
+}
+
+#sebastian {
+  align-content: left;
+  padding-top: 3em;
+}
+
+#valentina {
+  align-content: left;
+  padding-top: 3em;
 }
 
 @media (min-width: 992px) {
