@@ -15,7 +15,7 @@ p {
 }
 
 a {
-  color: #689dce;
+  color: #74C7B0;
 }
 
 a:hover {
@@ -28,7 +28,7 @@ a:hover {
 }
 */
 .research {
-  color: #4d7397 !important;
+  color: #9C3E3E !important;
 }
 
 .editing {
@@ -61,10 +61,11 @@ h6 {
   padding: 100px 0;
 }
 
-.page-section h2.section-heading {
-  font-size: 40px;
+.project h2.section-heading {
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #9C3E3E;
 }
 
 .page-section h3.section-subheading {
@@ -97,9 +98,11 @@ h6 {
 
 
 hr {
-  border: 6px solid #4d7397;
+  border: 6px solid #74C7B0;
   margin-top: 0px;
-  width: 43%;
+  text-align: left;
+  margin-left: 0;
+  width: 50%;
 }
 
 /*added*/
@@ -196,22 +199,22 @@ img::-moz-selection {
 
 #martina {
   align-content: left;
-  padding-top: 3em;
+  padding-top: 4em;
 }
 
 #fabio {
   align-content: left;
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 #sebastian {
   align-content: left;
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 #valentina {
   align-content: left;
-  padding-top: 6em;
+  padding-top: 4em;
 }
 
 @media (min-width: 992px) {
@@ -286,6 +289,12 @@ header.masthead .intro-text .intro-heading {
   color: white;
   text-shadow: -2px 3px 3px rgba(32, 37, 43, 1);
   font-family: 'Roboto', sans-serif;
+}
+
+#allprojects {
+  padding-top: 6em;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
