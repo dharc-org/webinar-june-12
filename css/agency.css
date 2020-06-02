@@ -217,6 +217,11 @@ img::-moz-selection {
   padding-top: 4em;
 }
 
+.emailaddress {
+  font-size: .75em;
+}
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -712,6 +717,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
 }
