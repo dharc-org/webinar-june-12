@@ -97,6 +97,9 @@ h6 {
 
 /*added*/
 
+.datea {
+  color: white !important;
+}
 .nav-tabs .nav-link {
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -154,16 +157,17 @@ img::-moz-selection {
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
+  color: white;
 }
 
 .btn-primary {
-  background-color: #e2c576;
-  border-color: #e2c576;
+  background-color: #9e5757;
+  border-color: #9e5757;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #ceb46c !important;
-  border-color: #ceb46c !important;
+  background-color: #9C3E3E !important;
+  border-color: #9C3E3E !important;
   color: white;
 }
 
@@ -214,6 +218,10 @@ img::-moz-selection {
   background-color: #9C3E3E;
 }
 
+#mainNav.navbar-shrink .navbar-brand {
+  font-size: 1.25em;
+  padding:12px 0;
+}
 
 .navbar-collapse {
   background-color: #9C3E3E;
@@ -266,7 +274,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
-    padding: 12px 0;
+    padding:20px 0;
   }
 
   .navbar-collapse {
