@@ -97,6 +97,10 @@ h6 {
 
 /*added*/
 
+.when {
+  padding-bottom: 3em;
+}
+
 .datea {
   color: white !important;
 }
