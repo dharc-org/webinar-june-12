@@ -103,6 +103,9 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 
+.nav {
+  background-color: red;
+}
 
 hr {
   border: 6px solid #74C7B0;
@@ -111,6 +114,7 @@ hr {
   margin-left: 0;
   width: 50%;
 }
+
 
 /*added*/
 
@@ -178,7 +182,7 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #e2c576;
+  background-color: #9C3E3E;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -202,6 +206,17 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ceb46c;
+}
+
+#mainNav.navbar-shrink {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #9C3E3E;
+}
+
+
+.navbar-collapse {
+  background-color: #9C3E3E;
 }
 
 #martina {
@@ -247,11 +262,15 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #74C7B0;
+    background-color: #9C3E3E;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+
+  .navbar-collapse {
+    background-color: transparent;
   }
 }
 
